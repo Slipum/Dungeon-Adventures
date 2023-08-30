@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "dungeonadventures:excavations",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"salt": 1642136474,
+		"spacing": 20,
+		"seperation": 6,
+		"type": "minecraft:random_spread"
+	}
+}
