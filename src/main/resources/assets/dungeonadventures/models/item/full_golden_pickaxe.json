@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "dungeonadventures:item/full_golden_pickaxe"
+	}
+}

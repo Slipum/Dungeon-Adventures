@@ -2,11 +2,13 @@ package org.sgx.dungeonadventures.item;
 
 import java.util.function.Supplier;
 
+import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 public enum ModToolMaterial implements ToolMaterial {
-	Improved_Brush(0, 192, 1.0f, 0.0f, 3, () -> Ingredient.ofItems(ModItems.Improved_Brush));
+	Full_Golden_Pickaxe(MiningLevels.IRON, 250, 12.0f, 0.0f, 22,
+			() -> Ingredient.ofItems(ModItems.Full_Golden_Pickaxe));
 
 	private final int miningLevel;
 	private final int itemDurability;
